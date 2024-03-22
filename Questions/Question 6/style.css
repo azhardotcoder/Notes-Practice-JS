@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#tabs{
+    display: flex;
+
+}
+.tab{
+    padding: 20px 22px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid;
+    font-weight: 700;
+    border-radius: 4px;
+    margin: 10px;
+    
+}
+
+h3{
+    display: none;
+}
