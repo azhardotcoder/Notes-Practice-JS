@@ -190,10 +190,21 @@ Math object allows you to perform mathematical tasks on numbers.
 
 !Math.random()     //returns a random number between 0 and 1
     *eg - console.log(Math.random()); //random number between 0 and 1
-
+?----Example code-----
+let min = 10
+let max = 20
+console.log(Math.floor(Math.random() * 10) + min); //* Output: random number between 10 and 20
 
 */
 
+/* //todo------------Time and date----------------
+Date object allows you to work with dates and times.
+?Declaration of date
+let myDate = new Date()
+console.log(myDate);
+console.log(myDate.toLocaleDateString());
+
+*/
 /* //TODO------------variables conversion----------------
 let a = 10  ------ Number
 let b = "20" ------ String
@@ -236,7 +247,4 @@ console.log("2" === 1 ); //* Comparison with using strict equal to operator
 console.log("2" !== 1 ); //* Comparison with using strict not equal to operator
 */
 
-/* //TODO------------DOM manipulation----------------
 
-
-*/
