@@ -118,3 +118,16 @@ console.log(obj.hasOwnProperty("last")) //* Output: false
 
 
 */
+/* //todo ------------Object Destructuring---------------
+*Object destructuring is a convenient way to extract multiple properties from an object and assign them to variables.
+
+let obj = {
+    name: "Azhar",
+    age: 22,
+    IndianCity: "Mumbai"
+}
+const {IndianCity: city } = obj
+
+console.log(city);
+
+*/
