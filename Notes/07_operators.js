@@ -4,15 +4,15 @@
     ? Exaple of Arithmetic Operators
     let x = 10;
     let y = 3;
-        console.log(x + y); 
+        console.log(x + y);
         console.log(x - y);
-        console.log(x * y); 
+        console.log(x * y);
         console.log(x / y);
         console.log(x % y);
-        console.log(x++); 
-        console.log(++x); 
-        console.log(x--); 
-        console.log(--x); 
+        console.log(x++);
+        console.log(++x);
+        console.log(x--);
+        console.log(--x);
 
 ! 2. Assignment Operators 
     //*(=, +=, -=, *=, /=, %=)
@@ -33,12 +33,12 @@
         console.log(x >= 1);
         console.log(x < 1);
         console.log(x <= 1);
-        
+
     todo-- Equality --
         console.log(x === 1);
         console.log(x !== 1);
 
-! 4. Logical Operators 
+! 4. Logical Operators
     *(&&, ||, !)
     ? Exaple of Logical Operators
     let x = 10;
@@ -50,13 +50,13 @@
     todo-- Logical NOT (!) --
         console.log(!(x > 5));
 
-! 5. Bitwise Operators 
+! 5. Bitwise Operators
     *(&, |, ^, ~, <<, >>, >>>)
     ? Exaple of Bitwise Operators
         console.log(1 | 2); // Bitwise OR
         console.log(1 & 2); // Bitwise AND
     
-! 6. Type Operators 
+! 6. Type Operators
     *(typeof, instanceof)
     ? Exaple of Type Operators
     let x = 1;
@@ -65,13 +65,13 @@
         console.log(typeof '1');
         console.log(typeof true);
         console.log(typeof null);
+    
 ! 7. Ternary Operator 
     *(condition ? expr1 : expr2)
     ? Exaple of Ternary Operator
     let points = 110;
     let type = points > 100 ? 'gold' : 'silver';
         console.log(type);
-
 */
 
 
