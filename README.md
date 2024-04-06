@@ -23,6 +23,6 @@ While these notes are personal, contributions in the form of corrections, additi
 If you have any questions or suggestions regarding these notes, feel free to reach out to me at [azhar.khan358113@gmail.com].
 
 ## For better understanding 
-For better understanding use better comment extention in vscode.
+For better understanding use "better comment" extention in vscode.
 
 Happy learning!
