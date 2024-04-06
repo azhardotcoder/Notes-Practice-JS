@@ -7,7 +7,6 @@
  
 */
 /* //todo ---------------Types of Functions----------------
-* There are two types of functions in javascript
 1. Named Function
     * Named functions are defined using the function keyword followed by the function name.
 2. Anonymous Function
