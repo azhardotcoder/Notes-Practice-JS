@@ -20,7 +20,7 @@ Feel free to explore the notes as you learn JavaScript. Each section contains ex
 While these notes are personal, contributions in the form of corrections, additional examples, or explanations are welcome. If you'd like to contribute, please fork the repository and submit a pull request with your changes.
 
 ## Contact
-If you have any questions or suggestions regarding these notes, feel free to reach out to me at [azhar.khan358113@gmail.com].
+If you have any questions or suggestions regarding these notes, feel free to reach out to me at azhar.khan358113@gmail.com
 
 ## For better understanding 
 For better understanding use "better comment" extention in vscode.
