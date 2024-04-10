@@ -1,5 +1,5 @@
 //todo ----------------- DOM -------------------
-// * DOM stands for Document Object Model.
+//  DOM stands for //?   Document Object Model.
 // * DOM is a programming interface for web documents.
 // * DOM represents the structure of the document.
 
