@@ -21,14 +21,36 @@
     <div class="main">
         <h1 id="titleID" class="azg">Dom manipulation</h1>
         <p id="subID" class="azg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur deleniti neque provident facere nemo officia expedita. Consequatur id officia amet ipsam non aliquam illum consequuntur?</p>
-        <ul>
-            <li>One</li>
+        <ul class="parent">
+            <li class="day">One</li>
             <li>Two</li>
             <li>Three</li>
         </ul>
     </div>
+    <script>
+        const parent = document.querySelector(".parent")
+        // console.log(parent.children); 
+        // console.log(parent.firstElementChild); 
+        // console.log(parent.lastElementChild); 
+        // console.log(parent.children[1].innerHTML = "Hello"); 
+        // console.log(parent.nextElementSibling); 
+
+        const dayOne = document.querySelector(".day")
+        console.log(dayOne.parentElement);
+        console.log(dayOne.nextElementSibling);
+
+        console.log("NODES ", parent.childNodes); // selection of nodelist
+        //todo ------ defination of nodelist--------------
+        //* NodeList is a collection of nodes. It is an array-like object but not an array. It is a list of nodes that can be accessed by index numbers. It is a collection of nodes returned by properties such as node.childNodes and the querySelectorAll method.
+
+
+        // for (let i = 0; i < parent.children.length; i++) {
+        //     console.log(parent.children[i].innerHTML = i); 
+            
+        // }
+    </script>
     
-    <script src="./02_Dom_manipulation.js"></script>
+    <!-- <script src="./02_Dom_manipulation.js"></script> -->
 </body>
 </html>
 

@@ -51,6 +51,30 @@ let subvc = document.querySelectorAll(".sub") // Gets all the elements with the 
 let titleaz = document.querySelectorAll("h1") // Gets all the elements with the tag of h1
 
 
+//todo ------ More properties of selecting or travelling to element----------
+const parent = document.querySelector(".parent")
+console.log(parent.children); 
+console.log(parent.firstElementChild); 
+console.log(parent.lastElementChild); 
+console.log(parent.children[1].innerHTML = "Hello"); 
+console.log(parent.nextElementSibling); 
+
+const dayOne = document.querySelector(".day")
+console.log(dayOne.parentElement);
+console.log(dayOne.nextElementSibling);
+
+for (let i = 0; i < parent.children.length; i++) {
+    console.log(parent.children[i].innerHTML = i); 
+    
+}
+
+//todo ------ defination of nodelist--------------
+//* NodeList is a collection of nodes. It is an array-like object but not an array. It is a list of nodes that can be accessed by index numbers. It is a collection of nodes returned by properties such as node.childNodes and the querySelectorAll method.
+
+console.log("NODES ", parent.childNodes); // selection of nodelist
+
+
+
 // todo ----------DIfference between innerHTML, innerText and innerContent----------------
 // innerHTML: returns the HTML content and //!tags of an element
 // innerText: returns the text content of an element //!which is visible on screen
