@@ -9,8 +9,8 @@ const c = [1, "Azhar", 3, "Khan", true, {}]
 
 ?-------Access the array elements-------
 let arr = ["Azhar", 2, 3, 4, 5]
-console.log(a[0]); //* Output: Azhar
-console.log(a[1]); //* Output: 2
+console.log(arr[0]); //* Output: Azhar
+console.log(arr[1]); //* Output: 2
 
 ?-------Methods of arrays-------
 👇👇👇👇👇These are few methods of arrays
@@ -40,11 +40,11 @@ const lastName = ["Singh", "Khan", "Ali", "Jhunjhunwala"]
 console.log(`${firstName[2]} ${lastName[1]}`); //* Output: Anas Khan
 
 !---Array spread operator---
-let completeName = [...firstName, ...lastName]
+let completeName = [...firstName, ...lastName] //* It merges two arrays
 
 !---Convert values into arrays---
-let name = "Azhar"
-let lastName = "Khan"
+let name = 
+let lastName = "Khan""Azhar"
 let anotherName = "Pata nahi"
 let number = 123
 

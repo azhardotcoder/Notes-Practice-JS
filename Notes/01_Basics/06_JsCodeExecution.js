@@ -3,7 +3,7 @@
 // * A function that is currently executing is called a running function.
 // * JavaScript code run in line by line order.
 
-// Todo------Execution of  js code------
+// Todo------Execution of js code------
 //There are 3 phases of execution code.
     //! 1. Global Phase 
         //* Execute all global code.

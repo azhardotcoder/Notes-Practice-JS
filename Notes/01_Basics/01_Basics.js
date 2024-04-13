@@ -1,4 +1,3 @@
-//  * Purpose: To write notes for the javascript concepts
 //  * Created date: 22-03-2024
 //  * Created by: Azhar Khan
 
@@ -28,10 +27,10 @@ const cannot redecalre & reassign                 //! eg - const c = 20     ----
 
 /* //todo ---------------Slack and Heap Memory---------------- 
 
-!----SLACK------
-    *Slack memory is a temporary memory that is used to store the data temporarily. It is a small memory.
-    *slack memory store primitive data types
-    *In slack memory we get copy of the data
+!----STACK------
+    *Stack memory is a temporary memory that is used to store the data temporarily. It is a small memory.
+    *stack memory store primitive data types
+    *In stack memory we get copy of the data
 
 !----HEAP------
     *Heap memory is a large memory that is used to store the data permanently.

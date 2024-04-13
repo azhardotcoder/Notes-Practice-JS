@@ -26,9 +26,8 @@ student.name = "Fardeen" //* Output: Fardeen
 
 !----If you want no one can change the object properties----
 Object.freeze(student) //* freeze method is used to prevent the object properties from being changed.
-
-
 */
+
 /* //todo ------------singleton---------------
 *Singleton is a design pattern that restricts the instantiation of a class to one object.
 const tinderUser = new object() //*Singleton object

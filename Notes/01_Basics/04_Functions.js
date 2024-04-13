@@ -23,11 +23,11 @@
         console.log("Hello World"); 
     }
 
-2. Anonymous Function
+2. Anonymous Function // we dont write function keyword
     Login(){
     console.log("Login");
     }
-3. Arrow Function
+3. Arrow Function // we dont write function keyword and name of function
     ()=>{
          console.log("Arrow function");
     }
