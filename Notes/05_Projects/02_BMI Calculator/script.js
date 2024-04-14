@@ -16,7 +16,7 @@ form.addEventListener("submit", function(e){
 
         let category = "";
         if (bmi < 18.6) {
-            category = "Underweight";
+            category = `<span>Underweight</span>`;
         } else if (bmi >= 18.6 && bmi <= 24.9) {
             category = "Normal Range";
         } else {
