@@ -44,3 +44,18 @@ switch (button.id) {
 
    })
 })
+
+
+
+let colorIndex = 0;
+const colors = ["grey", "white", "blue", "yellow", "green", "yellowgreen"];
+
+
+ // Function to change background color automatically
+// function changeColor() {
+//   body.style.backgroundColor = colors[colorIndex];
+//   colorIndex = (colorIndex + 1) % colors.length;
+// }
+
+// Call the function every second
+// setInterval(changeColor, 1000);

@@ -1,40 +1,56 @@
-html {
-    margin: 0;
-  }
-  
-  span {
-    display: block;
-  }
-  .canvas {
-    margin: 100px auto 100px;
-    width: 80%;
-    text-align: center;
-  }
-  
-  .button {
-    width: 100px;
-    height: 100px;
-    border: solid black 2px;
-    display: inline-block;
-  }
-  
-  #grey {
-    background: grey;
-  }
-  
-  #white {
-    background: white;
-  }
-  #blue {
-    background: blue;
-  }
-  #yellow {
-    background: yellow;
-  }
-  #green {
-    background: green;
-  }
-  #yellowgreen {
-    background: yellowgreen;
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.canvas {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#grey {
+  background-color: #9e9e9e;
+}
+
+#white {
+  background-color: #ffffff;
+}
+
+#blue {
+  background-color: #2196f3;
+}
+
+#yellow {
+  background-color: #ffeb3b;
+}
+
+#green {
+  background-color: #4caf50;
+}
+
+#yellowgreen {
+  background-color: #9acd32;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+h2 span {
+  font-weight: bold;
+}
