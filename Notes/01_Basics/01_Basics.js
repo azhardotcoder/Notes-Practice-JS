@@ -2,27 +2,28 @@
 //  * Created by: Azhar Khan
 
 /* //TODO---------- Variables----------------
-! Variables are containers for storing data values.
-const, let, var
-var can redeclare and reassignable variable       //! eg- var b = 17        ------- Var is a ES5 version
-let cannot redecalre but it can reassign          //! eg - let a = 10       ------ let is a ES6 version
-const cannot redecalre & reassign                 //! eg - const c = 20     ------ const is a ES6 version
-? var is a ES5 version, let and const are ES6 version
+Variables are containers for storing data values.
+    *const, let, var
+    *var can redeclare and reassignable variable       //! eg- var b = 17        ------- Var is a ES5 version
+    *let cannot redecalre but it can reassign          //! eg - let a = 10       ------ let is a ES6 version
+    *const cannot redecalre & reassign                 //! eg - const c = 20     ------ const is a ES6 version
+! var is a ES5 version, let and const are ES6 version
 */
 
 /* //todo -------------Types of datatypes in javascript----------------
 1. Primitive Datatypes
-    * String
-    * Number
-    * Boolean
-    * Null
-    * Undefined
-    * Symbol
-    * BigInt
+    Variables        Output
+    * String        //?  "Azhar"
+    * Number        //? 10
+    * Boolean       //? true or false
+    * Null          //? null
+    * Undefined     //? undefined
+    * Symbol        //? Symbol("Azhar")
+    * BigInt        //? 10n
 2. Non-Primitive Datatypes
-    * Object
-    * Array
-    * Function
+    * Object        //? {name: "Azhar", age: 10}
+    * Array         //? ["Azhar", "Khan"]
+    * Function      //? function myFunction(){return "Hello"}
 */
 
 /* //todo ---------------Slack and Heap Memory---------------- 
