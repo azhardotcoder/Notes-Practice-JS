@@ -9,7 +9,6 @@
       if (xhr.readyState === 4) {
           if (xhr.status === 200) {
               try {
-                  // Parse the JSON response
                   const data = JSON.parse(xhr.responseText);
                   const firstName = data.results[0].name.first
                   const lastName = data.results[0].name.last
