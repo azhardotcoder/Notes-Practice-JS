@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body  style="background-color: #313131; display: flex; align-items: center; justify-content: center;">
+    <button style="margin: 20px; font-size: 20px; background-color: orange;" id="orange">Orange</button>
+    <button style="margin: 20px; font-size: 20px; background-color: green;" id="green">Green</button>
+    <button style="margin: 20px; font-size: 20px; background-color: blue; " id="blue">Blue</button>
+    <button style="margin: 20px; font-size: 20px; background-color: red; " id="red">Red</button>
+</body>
+
+    <script>
+    function init() {
+        let name = "Mozilla"; 
+        function displayName() {
+            console.log(name); 
+        }
+        displayName();
+    }
+    init();
+
+
+    //! We can access the outer variables from the inner function but we can't access the inner variables from the outer function
+    function outer(){
+        let username = "azhar"
+        console.log("OUTER", secret);
+        function inner(){
+            let secret = "my123"
+            console.log("inner", username);
+        }
+        function innerTwo(){
+            console.log("innerTwo", username);
+            console.log(secret);
+        }
+        inner()
+        innerTwo()
+
+    }
+    outer()
+    console.log("TOO OUTER", username);
+
+
+    function makeFunc() {
+        const name = "Mozilla";
+        function displayName() {
+            console.log(name);
+        }
+        return displayName;
+    }
+
+    const myFunc = makeFunc();
+    myFunc();
+
+    </script>
+
+    <!-- closure real life example  -->
+    <script>
+        // document.getElementById("orange").onclick = function(){
+        //     document.body.style.backgroundColor = `orange`
+        // }
+        // document.getElementById("green").onclick = function(){
+        //     document.body.style.backgroundColor = `green`
+        // }
+
+        // lexical scoping helps in closure
+        function clickHandler(color){
+            // document.body.style.backgroundColor = `${color}`
+
+            return function(){
+                document.body.style.backgroundColor = `${color}`
+            }
+        }
+
+        document.getElementById('orange').onclick = clickHandler("orange")
+        document.getElementById('green').onclick = clickHandler("green")
+        document.getElementById('red').onclick = clickHandler("red")
+        document.getElementById('blue').onclick = clickHandler("blue")
+    </script>
