@@ -4,15 +4,12 @@
     ? Exaple of Arithmetic Operators
     let x = 10;
     let y = 3;
-        console.log(x + y); //* output: 13
-        console.log(x - y); //* output: 7
-        console.log(x * y); //* output: 30
-        console.log(x / y); //* output: 3.3333333333333335
-        console.log(x % y); //*output: 1
-        console.log(x++); //* output: 10
-        console.log(++x); //* output: 12
-        console.log(x--); //* output: 12
-        console.log(--x); //* output: 10
+        console.log(x + y); //*          +       operator is for addition of two values
+        console.log(x - y); //*          -       operator is for subtraction of two values
+        console.log(x / y); //*          /       operator is for division of two values
+        console.log(x % y); //*          %       operator is for modulus of two values
+        console.log(++x);   //*          ++      operator is for increment of value by 1
+        console.log(--x);   //*          --x     operator is for decrement of value by 1
 
 ! 2. Assignment Operators 
 Assignment operators are used to assign values to variables.
@@ -31,14 +28,14 @@ comparison operators are used to compare two values
     ? Exaple of Comparison Operators
     let x = 1;
     todo-- Relational --
-        console.log(x > 0); //* output: true 
-        console.log(x >= 1); //* output: true
-        console.log(x < 1); //* output: false
-        console.log(x <= 1); //* output: true
+        console.log(x > 0);     //*         >       operator is for greater than
+        console.log(x >= 1);    //*         >=      operator is for greater than or equal to
+        console.log(x < 1);     //*         <       operator is for less than
+        console.log(x <= 1);    //*         <=      operator is for less than or equal to
 
     todo-- Equality --
-        console.log(x === 1); //* output: true
-        console.log(x !== 1); //* output: false
+        console.log(x === 1); //*           ===     operator is for equal value and equal type
+        console.log(x !== 1); //*           !==     operator is for not equal value or not equal type
 
 ! 4. Logical Operators
 Logical operators are used to determine the logic between variables or values
@@ -47,11 +44,11 @@ Logical operators are used to determine the logic between variables or values
     let x = 10;
     let y = 3;
     todo-- Logical AND (&&) --
-        console.log(x > 5 && x < 15); //* output: true
+        console.log(x > 5 && x < 15); //*   &&     operator is for logical AND
     todo-- Logical OR (||) -- 
-        console.log(x > 5 || x < 15); //* output: true
+        console.log(x > 5 || x < 15); //*   ||     operator is for logical OR
     todo-- Logical NOT (!) --
-        console.log(!(x > 5)); //* output: false
+        console.log(!(x > 5)); //*          !      operator is for logical NOT
 
 ! 5. Bitwise Operators
 Bitwise operators are used to perform bitwise operations on variables
