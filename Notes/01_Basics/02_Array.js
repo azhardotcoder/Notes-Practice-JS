@@ -12,8 +12,8 @@ let arr = ["Azhar", 2, 3, 4, 5]
 console.log(arr[0]); //* Output: Azhar
 console.log(arr[1]); //* Output: 2
 
-?-------Methods of arrays-------
-👇👇👇👇👇These are few methods of arrays
+todo-------Methods of arrays-------
+?These are few methods of arrays
 
 let arr = ["Azhar", 2, 3, 4, 5]
 console.log(arr.length); //* We can check length of an array by using length property

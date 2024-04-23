@@ -4,7 +4,7 @@
 !----Declaration of an object----
 let student = {
     name: "Azhar",
-    age: 22
+    age: 22,
   "full name": "Azhar Khan" //*Important: If the property name contains spaces, then it should be enclosed in quotes.
 }
 !----Symbols in object----

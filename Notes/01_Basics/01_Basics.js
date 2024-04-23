@@ -57,7 +57,7 @@ console.log(GameName);
 console.log(typeof(GameName)); //* To check the type of the variable
 
 !---Methods of strings---
-👇👇👇👇👇These are few methods of strings👇👇👇👇👇👇👇👇👇👇
+👇👇These are few methods of strings👇👇
 
 ! Convert the string to uppercase
 .toUpperCase()
