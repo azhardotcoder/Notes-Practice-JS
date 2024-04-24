@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="../styles.css" />
+  <title>JavaScript Background Color Switcher</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .canvas {
+      max-width: 600px;
+      margin: 50px auto;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    #grey {
+      background-color: #9e9e9e;
+    }
+
+    #white {
+      background-color: #ffffff;
+    }
+
+    #blue {
+      background-color: #2196f3;
+    }
+
+    #yellow {
+      background-color: #ffeb3b;
+    }
+
+    #green {
+      background-color: #4caf50;
+    }
+
+    #yellowgreen {
+      background-color: #9acd32;
+    }
+
+    h2 {
+      margin-top: 50px;
+    }
+
+    h2 span {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="canvas">
+    <h1>Color Scheme Switcher</h1>
+    <span class="button" id="grey"></span>
+    <span class="button" id="white"></span>
+    <span class="button" id="blue"></span>
+    <span class="button" id="yellow"></span>
+    <span class="button" id="green"></span>
+    <span class="button" id="yellowgreen"></span>
+    <h2>
+      Try clicking on one of the colors above
+      <span>to change the background color of this page!</span>
+    </h2>
+  </div>
+  <script>
+    const btn = document.querySelectorAll(".button")
+    const body = document.querySelector("body")
+    btn.forEach((button) => {
+      button.addEventListener("click", function () {
+
+
+        switch (button.id) {
+          case "grey":
+          case "white":
+          case "blue":
+          case "yellow":
+          case "green":
+          case "yellowgreen":
+            body.style.backgroundColor = button.id
+            break;
+
+          default:
+            break;
+        }
+      })
+    })
+
+
+  </script>
+</body>
+
+</html>
